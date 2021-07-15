@@ -61,14 +61,14 @@ What are some ways to improve the security of a Unix/Linux system? Include gener
 
 ## Question 3
 
-Recreate [this poster](https://www.dropbox.com/sh/kfyl4lwlc4xllsi/AAB9g14A_Pme1M3bn-L1Y1bMa?dl=0&preview=poster-test.ai) in HTML. You can add any animations that will make the poster more engaging.
+> Recreate [this poster](https://www.dropbox.com/sh/kfyl4lwlc4xllsi/AAB9g14A_Pme1M3bn-L1Y1bMa?dl=0&preview=poster-test.ai) in HTML. You can add any animations that will make the poster more engaging.
 
-> HTML is available [here](https://github.com/javan-pohl/mvm/blob/main/mvmPoster.html)
-> Available as webpage [here](https://www.javanpohl.com/mvmPoster)
+HTML is available [here](https://github.com/javan-pohl/mvm/blob/main/mvmPoster.html)
+Available as webpage [here](https://www.javanpohl.com/mvmPoster)
 
 ## Question 4
 
-In your view, what are the pros and cons of TDD (test driven development). When do you think TDD makes more/less sense
+> In your view, what are the pros and cons of TDD (test driven development). When do you think TDD makes more/less sense
 
 ### Pros of TDD
 
