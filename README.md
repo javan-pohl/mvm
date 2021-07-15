@@ -3,11 +3,11 @@
 
 ## Question 1 
 
-You have a list/array of strings that represent dates and looks like this: [‘Oct 7, 2009’, ‘Nov 10, 2009’, ‘Jan 10, 2009’, ‘Oct 22, 2009’, …]
+> You have a list/array of strings that represent dates and looks like this: [‘Oct 7, 2009’, ‘Nov 10, 2009’, ‘Jan 10, 2009’, ‘Oct 22, 2009’, …]
 
-The month is always the first three characters of full month name (‘January’ => ‘Jan’, ‘February’ => ‘Feb’, …).
+> The month is always the first three characters of full month name (‘January’ => ‘Jan’, ‘February’ => ‘Feb’, …).
 
-The day is one or two digits (1, 2, … 31), with no preceding zero. There is always a comma after the day. The year is always four digits. Write a routine (in any language) that will order this list of strings in date descending order. Do not use any built in date-­‐parsing library… write your own specific to this date format. Feel free to use, or not use, regex.
+> The day is one or two digits (1, 2, … 31), with no preceding zero. There is always a comma after the day. The year is always four digits. Write a routine (in any language) that will order this list of strings in date descending order. Do not use any built in date-­‐parsing library… write your own specific to this date format. Feel free to use, or not use, regex.
 
 	function orderDatesDesc(datesArr) {
 		function dateToVal(dateStr) {
@@ -81,5 +81,11 @@ Available as webpage [here](https://www.javanpohl.com/mvmPoster)
 ### When does it make sense to apply TDD?
 
 - Arguably, it's a good idea to apply it all the time, if for no other reason than to develop good habits in your coding. But, realistically (and more objectively), it's a good idea to apply TDD ideologies any time your code is likely to be maintained, changed, updated, etc in the future. Even for one-and-done types of coding projects, certain aspects of TDD can be a good idea to prevent yourself from duplicating code for the sake of saving yourself some time.
+- By the way, I've been assuming, we're not really talking about 'automated testing' here, and just the pure aspects of test driven *development*. 
 
 
+## Question 5
+
+> Do you have nay favorite coding related quotes or cartoons?
+
+[This](https://www.linkedin.com/posts/javascript-developer_activity-6820235869128007680-I8pp) cartoon is a recent favorite of mine
