@@ -47,17 +47,17 @@ The day is one or two digits (1, 2, … 31), with no preceding zero. There is al
 
 ## Question 2
 
-What are some ways to improve the security of a Unix/Linux system? Include general security guidelines and any specifics related to web servers and db servers
+> What are some ways to improve the security of a Unix/Linux system? Include general security guidelines and any specifics related to web servers and db servers
 
-	To try to avoid being disingenuous, I will admit that computer / network security is not a strength of mine.
+To try to avoid being disingenuous, I will admit that computer / network security is not a strength of mine.
 
-	Things I know:
-	- Password protect and / or encrypt everything.
-	- Long passwords are best. The longer a password string, the harder it is for password cracking software to beat it.
-	- Keep your system up to date. Security patches are there for a reason.
-	- In terms of databases and web servers, you can want to clean any incoming data (e.g. text supplied by a user) to remove any malicious code.
-	- Implement network firewalls
-	- I haven't actually looked into the feasibility of this one, but, if you're creating the software responsible for password checking, I feel like it should be standard to start implementing time intervals between password attempts after a few incorrect guesses. 
+Things I know:
+- Password protect and / or encrypt everything.
+- Long passwords are best. The longer a password string, the harder it is for password cracking software to beat it.
+- Keep your system up to date. Security patches are there for a reason.
+- In terms of databases and web servers, you can want to clean any incoming data (e.g. text supplied by a user) to remove any malicious code.
+- Implement network firewalls
+- I haven't actually looked into the feasibility of this one, but, if you're creating the software responsible for password checking, I feel like it should be standard to start implementing time intervals between password attempts after a few incorrect guesses. 
 
 ## Question 3
 
