@@ -3,11 +3,11 @@
 
 ## Question 1 
 
-> You have a list/array of strings that represent dates and looks like this: [‘Oct 7, 2009’, ‘Nov 10, 2009’, ‘Jan 10, 2009’, ‘Oct 22, 2009’, …]
+You have a list/array of strings that represent dates and looks like this: [‘Oct 7, 2009’, ‘Nov 10, 2009’, ‘Jan 10, 2009’, ‘Oct 22, 2009’, …]
 
-> The month is always the first three characters of full month name (‘January’ => ‘Jan’, ‘February’ => ‘Feb’, …).
+The month is always the first three characters of full month name (‘January’ => ‘Jan’, ‘February’ => ‘Feb’, …).
 
-> The day is one or two digits (1, 2, … 31), with no preceding zero. There is always a comma after the day. The year is always four digits. Write a routine (in any language) that will order this list of strings in date descending order. Do not use any built in date-­‐parsing library… write your own specific to this date format. Feel free to use, or not use, regex.
+The day is one or two digits (1, 2, … 31), with no preceding zero. There is always a comma after the day. The year is always four digits. Write a routine (in any language) that will order this list of strings in date descending order. Do not use any built in date-­‐parsing library… write your own specific to this date format. Feel free to use, or not use, regex.
 
 	const months = {
 		Jan: '01',
@@ -60,3 +60,19 @@
 ## Question 2
 
 What are some ways to improve the security of a Unix/Linux system? Include general security guidelines and any specifics related to web servers and db servers
+
+	To try to avoid being disingenuous, I will admit that computer / network security is not a strength of mine.
+
+	Things I know:
+	- Password protect and / or encrypt everything.
+	- Long passwords are best. The longer a password string, the harder it is for password cracking software to beat it.
+	- Keep your system up to date. Security patches are there for a reason.
+	- In terms of databases and web servers, you can want to clean any incoming data (e.g. text supplied by a user) to remove any malicious code.
+	- Implement network firewalls
+	- I haven't actually looked into the feasibility of this one, but, if you're creating the software responsible for password checking, I feel like it should be standard to start implementing time intervals between password attempts after a few incorrect guesses. 
+
+## Question 3
+
+Recreate [this poster](https://www.dropbox.com/sh/kfyl4lwlc4xllsi/AAB9g14A_Pme1M3bn-L1Y1bMa?dl=0&preview=poster-test.ai) in HTML. You can add any animations that will make the poster more engaging.
+
+	(Will be supplied in a separate file)

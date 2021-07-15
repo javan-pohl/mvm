@@ -16,10 +16,12 @@
 			font-weight: normal;
 			font-style: normal;
 		}
+
 		@font-face {
 			font-family: 'Tai Heritage Pro';
 			src: url('TaiHeritagePro.tff') format('woff')
 		}
+
 		body {
 			color: rgb(255, 242, 242);
 			height: 1447px;
@@ -73,6 +75,7 @@
 			position: absolute;
 			top: 265px;
 			left: 558px;
+
 		}
 
 		.forwardRed {
@@ -87,6 +90,28 @@
 			border-bottom: 10px solid red;
 			width: 150px;
 			transform: rotate(135deg);
+			-webkit-animation: spin 3s linear infinite;
+			-moz-animation: spin 3s linear infinite;
+			animation: spin 3s linear infinite;
+		}
+
+		@-moz-keyframes spin {
+			100% {
+				-moz-transform: rotate(315deg);
+			}
+		}
+
+		@-webkit-keyframes spin {
+			100% {
+				-webkit-transform: rotate(315deg);
+			}
+		}
+
+		@keyframes spin {
+			100% {
+				-webkit-transform: rotate(315deg);
+				transform: rotate(315deg);
+			}
 		}
 
 		.title {
@@ -234,7 +259,7 @@
 		The Forum</br>
 	</div>
 	<div class="timeSlashBox">
-		<div class="backRed"></div>
+		<div class="backRed slashAnimation"></div>
 	</div>
 	<img src="https://townsquare.media/site/43/files/2014/12/150631496-300x297.jpg?w=980&q=75">
 	<div class="address">
