@@ -68,7 +68,7 @@ Available as webpage [here](https://www.javanpohl.com/mvmPoster)
 
 ## Question 4
 
-> In your view, what are the pros and cons of TDD (test driven development). When do you think TDD makes more/less sense
+> In your view, what are the pros and cons of TDD (test driven development). When do you think TDD makes more/less sense?
 
 ### Pros of TDD
 
@@ -81,11 +81,11 @@ Available as webpage [here](https://www.javanpohl.com/mvmPoster)
 ### When does it make sense to apply TDD?
 
 - Arguably, it's a good idea to apply it all the time, if for no other reason than to develop good habits in your coding. But, realistically (and more objectively), it's a good idea to apply TDD ideologies any time your code is likely to be maintained, changed, updated, etc in the future. Even for one-and-done types of coding projects, certain aspects of TDD can be a good idea to prevent yourself from duplicating code for the sake of saving yourself some time.
-- By the way, I've been assuming, we're not really talking about 'automated testing' here, and just the pure aspects of test driven *development*. 
+- By the way, I've been assuming, we're not really talking about 'automated testing' here; rather, just the pure aspects of test driven *development*. 
 
 
 ## Question 5
 
 > Do you have nay favorite coding related quotes or cartoons?
 
-[This](https://www.linkedin.com/posts/javascript-developer_activity-6820235869128007680-I8pp) cartoon is a recent favorite of mine
+[This](https://www.linkedin.com/posts/javascript-developer_activity-6820235869128007680-I8pp) cartoon is a recent favorite of mine. I have a strong love / hate relationship with CSS. Speaking of, thanks for making me hate it even more (I'm looking at YOU, slashed zeros!)
