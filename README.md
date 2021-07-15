@@ -8,7 +8,7 @@ The month is always the first three characters of full month name (‘January’
 
 The day is one or two digits (1, 2, … 31), with no preceding zero. There is always a comma after the day. The year is always four digits. Write a routine (in any language) that will order this list of strings in date descending order. Do not use any built in date-­‐parsing library… write your own specific to this date format. Feel free to use, or not use, regex.
 
-`const months = {
+` const months = {
 	Jan: '01',
 	Feb: '02',
 	Mar: '03',
@@ -54,4 +54,4 @@ function dateToVal(dateStr) {
 
 	let total = '' + yearVal + monthVal + dayVal
 	return total 
-}`
+} `
