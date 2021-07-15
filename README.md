@@ -49,7 +49,7 @@
 
 > What are some ways to improve the security of a Unix/Linux system? Include general security guidelines and any specifics related to web servers and db servers
 
-To try to avoid being disingenuous, I will admit that computer / network security is not a strength of mine.
+To try to avoid being disingenuous, I will admit that computer / network security is not a strength of mine. (I.e. I could have done a great deal of research on this topic but, instead, I'm just going off of what I already know.)
 
 Things I know:
 - Password protect and / or encrypt everything.
@@ -73,19 +73,18 @@ Available as webpage [here](https://www.javanpohl.com/mvmPoster)
 ### Pros of TDD
 
 - In addition to testing, TDD also helps us to think about how our code is constructed, in terms of the individual modules and the program as a whole. By focusing on how testable our code is, we can inherently apply good design principles to our code (ETC, modularity, orthogonality, pure functions, DRY, etc).
+- In case we are also talking about the actual testing aspect of TDD, the main idea of having an automated test suite is to ensure that new changes don't break existing features or functionality of our code.
 
 ### Cons of TDD
 
-- Time is the obvious downside of TDD. Even if we're not actually building the tests but rather just trying to design our code in such a way to be testable, it does take extra time to do.
+- Time is the obvious downside of TDD. Even if we're not actually building the tests but rather just trying to design our code in such a way to be testable, it does take extra time to do so.
 
 ### When does it make sense to apply TDD?
 
 - Arguably, it's a good idea to apply it all the time, if for no other reason than to develop good habits in your coding. But, realistically (and more objectively), it's a good idea to apply TDD ideologies any time your code is likely to be maintained, changed, updated, etc in the future. Even for one-and-done types of coding projects, certain aspects of TDD can be a good idea to prevent yourself from duplicating code for the sake of saving yourself some time.
-- By the way, I've been assuming, we're not really talking about 'automated testing' here; rather, just the pure aspects of test driven *development*. 
-
 
 ## Question 5
 
 > Do you have nay favorite coding related quotes or cartoons?
 
-[This](https://www.linkedin.com/posts/javascript-developer_activity-6820235869128007680-I8pp) cartoon is a recent favorite of mine. I have a strong love / hate relationship with CSS. Speaking of, thanks for making me hate it even more (I'm looking at YOU, slashed zeros!)
+[This](https://www.linkedin.com/posts/javascript-developer_activity-6820235869128007680-I8pp) cartoon is a recent favorite of mine. I have a strong love / hate relationship with CSS. 

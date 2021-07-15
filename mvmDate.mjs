@@ -41,8 +41,8 @@ function orderDatesDesc(datesArr) {
 }
 
 
-const testData = ['Dec 31, 1999', 'Jan 1, 2011','Oct 7, 2009','Oct 11, 3333', 'Nov 10, 2009', 'Jan 10, 2009', 'Oct 22, 2009', 'Jan 1, 2012', 'Jan 1, 1', 'Jul 1, 9999']
-console.log('data: ', testData)
-console.log('sorted: ', orderDatesDesc(testData))
+// const testData = ['Dec 31, 1999', 'Jan 1, 2011','Oct 7, 2009','Oct 11, 3333', 'Nov 10, 2009', 'Jan 10, 2009', 'Oct 22, 2009', 'Jan 1, 2012', 'Jan 1, 1', 'Jul 1, 9999']
+// console.log('data: ', testData)
+// console.log('sorted: ', orderDatesDesc(testData))
 
 export default orderDatesDesc
