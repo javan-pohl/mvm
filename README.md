@@ -65,3 +65,21 @@ Recreate [this poster](https://www.dropbox.com/sh/kfyl4lwlc4xllsi/AAB9g14A_Pme1M
 
 > HTML is available [here](https://github.com/javan-pohl/mvm/blob/main/mvmPoster.html)
 > Available as webpage [here](https://www.javanpohl.com/mvmPoster)
+
+## Question 4
+
+In your view, what are the pros and cons of TDD (test driven development). When do you think TDD makes more/less sense
+
+	### Pros of TDD
+
+	- In addition to testing, TDD also helps us to think about how our code is constructed, in terms of the individual modules and the program as a whole. By focusing on how testable our code is, we can inherently apply good design principles to our code (ETC, modularity, orthogonality, pure functions, DRY, etc).
+
+	### Cons of TDD
+
+	- Time is the obvious downside of TDD. Even if we're not actually building the tests but rather just trying to design our code in such a way to be testable, it does take extra time to do.
+
+	### When does it make sense to apply TDD?
+
+	Arguably, it's a good idea to apply it all the time, if for no other reason than to develop good habits in your coding. But, realistically (and more objectively), it's a good idea to apply TDD ideologies any time your code is likely to be maintained, changed, updated, etc in the future. Even for one-and-done types of coding projects, certain aspects of TDD can be a good idea to prevent yourself from duplicating code for the sake of saving yourself some time.
+
+
