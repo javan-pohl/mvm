@@ -91,6 +91,8 @@ Available as webpage [here](https://www.javanpohl.com/mwmPoster)
 
 ## Code from a recent project
 
+Here is the code for my Header (2nd iteration) for my current project, which is revamping my fixncell.com website. Github repo available [here](https://github.com/javan-pohl/fix-ncell-phone-repair)
+
 	import * as React from 'react'
 	import { Link, useStaticQuery, graphql } from 'gatsby'
 	import PropTypes from 'prop-types'
