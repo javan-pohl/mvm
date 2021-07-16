@@ -28,14 +28,14 @@
 		
 			let dateArr = dateStr.split('')
 		
-			const monthVal = months[dateArr.splice(0,3).join('').toLowerCase()]
+			const month = months[dateArr.splice(0,3).join('').toLowerCase()]
 		
-			let dayVal = dateArr.splice(0,dateArr.indexOf(',')).join('').trim()
-			dayVal = dayVal.length === 1 ? '0' + dayVal : dayVal
+			let day = dateArr.splice(0,dateArr.indexOf(',')).join('').trim()
+			day = day.length === 1 ? '0' + day : day
 		
-			const yearVal = dateArr.splice(dateArr.indexOf(',') + 1).join('').trim()
+			const year = dateArr.splice(dateArr.indexOf(',') + 1).join('').trim()
 		
-			let total = '' + yearVal + monthVal + dayVal
+			const total = '' + year + month + day
 			return total 
 		}
 		// convert months to numeric string (yyyymmdd) and then sort on that date value
