@@ -63,8 +63,9 @@ Things I know:
 
 > Recreate [this poster](https://www.dropbox.com/sh/kfyl4lwlc4xllsi/AAB9g14A_Pme1M3bn-L1Y1bMa?dl=0&preview=poster-test.ai) in HTML. You can add any animations that will make the poster more engaging.
 
-HTML is available [here](https://github.com/javan-pohl/mvm/blob/main/mwmPoster.html)
-Available as webpage [here](https://www.javanpohl.com/mwmPoster)
+HTML is available [here](https://github.com/javan-pohl/mvm/blob/main/mwmPoster.html).
+
+Available as webpage [here](https://www.javanpohl.com/mwmPoster).
 
 ## Question 4
 
