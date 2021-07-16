@@ -87,7 +87,11 @@ Available as webpage [here](https://www.javanpohl.com/mwmPoster)
 
 > Do you have nay favorite coding related quotes or cartoons?
 
-[This](https://www.linkedin.com/posts/javascript-developer_activity-6820235869128007680-I8pp) cartoon is a recent favorite of mine. I have a strong love / hate relationship with CSS. 
+This cartoon is a recent favorite of mine. I have a strong love / hate relationship with CSS. (It exacerbates my perfectionist tendencies):
+
+![I'm learning CSS](https://media-exp3.licdn.com/dms/image/C4D22AQFrnr6U-dgw9A/feedshare-shrink_800/0/1626070943846?e=1629331200&v=beta&t=UWKZ-YYfMm6Ab5Ne-ybJ3_veZJA8whF_Vf2XZkS85O0)
+
+[Source](https://www.linkedin.com/posts/javascript-developer_activity-6820235869128007680-I8pp/)
 
 ## Code from a recent project
 
